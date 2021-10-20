@@ -1,6 +1,6 @@
 ## Basic login app with comments
 
-# Backend repo if the app.
+# Backend repo of the login app.
 
 It contains registration and login as well as comments.
 Validation, hashes and security token JWT, and authorization.

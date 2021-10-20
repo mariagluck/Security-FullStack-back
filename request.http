@@ -1,0 +1,30 @@
+###Register new User
+POST http://localhost:9000/register
+Content-Type: application/json
+
+{
+    "email": "talula@example.org",
+    "password": "123994567"
+}
+
+
+
+###Login user
+POST http://localhost:9000/login
+Content-Type: application/json
+
+{
+    "email": "talula@example.org",
+    "password": "123994567"
+}
+
+
+
+###Send a message
+POST http://localhost:9000/message
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTZmZTc3MzA5ZDlkYmRkYTIzYjc3NDgiLCJpYXQiOjE2MzQ3MzE0NzR9.aKH91D81tQrbq982fhJSqQePbJ1Rd6EIs5GNb2gyuV0 
+Content-Type: application/json
+
+{
+    "message": "Artandcultureencouragethoughtandreason"
+}
